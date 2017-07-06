@@ -14,8 +14,8 @@ Texto 2 =color: #eec01a;
 */
 
 *{
-  font-family: 'Raleway', sans-serif;
   box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
 }
 
 body{
@@ -24,9 +24,20 @@ body{
   width: 100%;
 }
 
-.bg-grey{
-  background-color: rgb(70, 81, 82);
+.bg-header{
+  /*background-color: rgb(70, 81, 82);*/
+  align-items: center;
+  background-image: url('../images/bg2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
   height: 100vh;
+  justify-content: center;
+}
+.flex{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .title{
@@ -38,8 +49,8 @@ body{
 }
 .text-content{
   box-sizing: border-box;
-  padding: 10px;
   color: rgb(212, 221, 184);
   font-size: 1.5rem;
   margin: 0;
+  padding: 10px;
 }
