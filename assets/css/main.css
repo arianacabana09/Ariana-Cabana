@@ -28,6 +28,11 @@ body {
   padding: 0;
 }
 
+section {
+  padding: 150px 0;
+  height: 100vh;
+}
+
 .logo{
   width: 200px;
   height: 50px;
