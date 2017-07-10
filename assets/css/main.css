@@ -16,12 +16,15 @@ Texto 2 =color: #eec01a;
 *{
   box-sizing: border-box;
   font-family: 'Raleway', sans-serif;
+  overflow-wrap: break-word;
+  width: 100%;
 }
 
 body{
   background-color: #e0ebe8;
+  margin: 0;
+  line-height: 1.5em;
   padding: 0;
-  width: 100%;
 }
 
 .bg-header{
