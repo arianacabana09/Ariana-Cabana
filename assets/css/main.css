@@ -15,7 +15,8 @@ Texto 2 =color: #eec01a;
 
 * {
   box-sizing: border-box;
-  font-family: 'Raleway', sans-serif;
+  /*font-family: 'Raleway', sans-serif;*/
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   width: 100%;
   height: auto;
   font-size: 16px;
@@ -65,8 +66,8 @@ section {
 
 .title {
   box-sizing: border-box;
-  /*color: rgb(30, 214, 187);*/
-  color: white;
+  color: rgb(30, 214, 187);
+  /*color: white;*/
   font-family: 'Lobster', cursive;
   font-size: 4rem;
   margin: 0;
@@ -80,7 +81,8 @@ section {
 }
 
 .nav-color {
-  background-color: #1ed6bb;
+  /*background-color: #1ed6bb;*/
+  background-color: #85e9be;
   display: none;
   left: 0;
   position: fixed;
