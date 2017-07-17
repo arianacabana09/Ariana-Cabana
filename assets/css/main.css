@@ -120,6 +120,12 @@ footer {
   padding: 10px;
 }
 
+.btn-focus {
+  border: 0;
+  cursor: pointer;
+  padding: 10px;
+}
+
 @-webkit-keyframes typing { from { width: 0; } }
 @-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
 
