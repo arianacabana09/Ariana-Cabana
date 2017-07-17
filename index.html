@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Lobster|Open+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/materialize.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
@@ -27,29 +27,32 @@
     <header id="home" class="bg-header flex col s12 l12">
       <div class="center">
         <div class="flex-align">
-          <a href="index.html"><h1 class="title ">Ariana Cabana Cahuana</h1></a>
-          <span class="text-content writing w-char1">UI Developer</span>
-          <span class="text-content writing w-char2">Front-end Web Developer</span>
+          <a href="index.html"><h1 class="title">Ariana Cabana Cahuana</h1></a>
+          <span class="text-content color-y writing w-char1">UI Developer</span>
+          <span class="text-content color-y writing w-char2">| Front-end Web Developer</span>
         </div>
       </div>
     </header>
-    <section id="about" class="container">
+    <section id="about">
       <div class="container">
         <div class="row">
-          <div class="col s12 l6 m6">
-            <h2 class="title animated bounce infinite">Hola, </h2>
-            <p class="parrafo-w">mi nombre es Ariana, soy UI Developer, me gusta desarrollar aplicaciones con precisión en los detalles y dispuesta en asumir retos que me permitan conocer nuevas tecnologias. Actualmente soy egresada de Laboratoria; cuando no estoy subiendo cambios en algún repositorio o escribiendo código trato de leer algún libro o planear un fullday.
+          <div class="col s12 l6 m6 center">
+            <h3 class="title animated bounce infinite">¡Hola!</h3>
+            <h2 class="title color-y">mi nombre es Ariana</h2>
+            <p class="color-w p-content">Soy UI Developer, interesada en desarrollar aplicaciones con precisión en los detalles, dispuesta en asumir retos que me permitan conocer nuevas tecnologias.</p>
+            <p class="color-w p-content"> Actualmente soy egresada de Laboratoria; mi objetivo es que los productos desarrollados sea de mucha utilidad para el usuario y su entorno.</p>
+            <p class="color-w p-content">Parte de mi vida como coder es estar en constante aprendizaje, pero cuando no estoy subiendo cambios en algún repositorio o escribiendo código trato de leer algún libro o planear un fullday.
             </p>
           </div>
           <div class="col s12 l6 m6">
-            <img class="responsive-img z-depth-4" src="assets/doc/perfilAriana.jpg" alt="foto de perfil">
+            <img class="responsive-img" src="assets/doc/perfilAriana.jpg" alt="foto de perfil">
           </div>
         </div>
       </div>
     </section>
     <section id="skill" class="section1">
       <div class="container">
-        <h2 class="title">Habilidades y Conocimientos</h2>
+        <h2 class="title ">Habilidades y Conocimientos</h2>
         <div class="icons-skill">
           <img src="assets/icons/bootstrap.png" alt="icono bootstrap">
           <img src="assets/icons/css_html.svg" alt="icono css y html">
@@ -61,11 +64,11 @@
         </div>
       </div>
     </section>
-    <section id="work" class="container">
-      <!-- <div class=""> -->
-        <div class="">
+    <section id="work" class="">
+      <div class="container">
+        <div class="container">
           <h2 class="title">Proyectos</h2>
-          <p class="parrafo-w">Estos proyectos fueron realizados durante el bootcamp de 6 meses, de los cuales se desarrollaron conforme a los temas establecidos como:
+          <p class="color-w">Estos proyectos fueron realizados durante el bootcamp de 6 meses, de los cuales se desarrollaron conforme a los temas establecidos como:
             CSS E INTERACCIONES
            RESPONSIVE AND CSS FRAMEWORKS
            JQUERY, AJAX, PROMISES Y APIS
@@ -119,27 +122,42 @@
                 </div>
               </div>
             </div>
-      <!-- </div> -->
+      </div>
     </section>
     <section id="contact" class="section1">
-      <div class="container">
-        <h2 class="title animated bounce infinite">¿Una pregunta? </h2>
-        <div class="">
-          <p>¿Tienes un proyecto del que quieres hablar?¿O sólo quiere decir hola? No dudes en escribirme en algunas de estas opciones</p>
-        </div>
-        <div class="icons container">
-          <div>
-            <a class="btn" href="assets/doc/ArianaCabana.pdf" target="_blank"><i class="material-icons left">work sdad</i></a>
+      <div class="container center">
+        <h2 class="title">¿Quieres contactarme? </h2>
+        <p>¿Tienes un proyecto del que quieres hablar? No dudes en escribirme en algunas de estas opciones.
+        </p>
+        <div class="row">
+          <div class="col s10 l2 m2">
+            <a href="https://github.com/arianacabana09" target="_blank">
+              <span class="icon-social icon-gh"></span>
+            </a>
           </div>
-          <div id="i-gh" class="col s10 l2 m2 icon-gh"></div>
-          <div id="i-link" class="col s10 l2 m2 icon-in"></div>
-          <div id="i-phone" class="col s10 l2 m2 icon-phone"></div>
-          <div id="i-mail" class="col s10 l2 m2 icon-gmail"></div>
+          <div class="col s10 l2 m2">
+            <a href="https://www.linkedin.com/in/arianacabanacahuana/" target="_blank">
+              <span class="icon-social icon-in"></span>
+            </a>
+          </div>
+          <div class="col s10 l2 m2">
+            <span class="icon-social icon-phone"></span>
+            <p id="scale-demo" class="chip">934873143</p>
+          </div>
+          <div class="col s10 l3 m3">
+            <span class="icon-social icon-gmail"></span>
+            <p id="scale-demo" class="chip">acabana.0904@gmail.com</p>
+          </div>
+          <div class="col s10 m2 l2 animated rubberBand infinite">
+            <a class="waves-effect red btn" href="assets/doc/ArianaCabana.pdf" target="_blank">
+              <i class="font-r">Mi CV</i>
+            </a>
+          </div>
         </div>
       </div>
     </section>
     <footer class="footer-copyright row">
-      <div class="parrafo-w center">
+      <div class="color-w center">
         <p>&copy; Ariana Cabana 2017</p>
       </div>
     </footer>
