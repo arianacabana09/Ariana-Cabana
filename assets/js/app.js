@@ -2,9 +2,13 @@
 
 $(window).scroll(function () {
   var scrollTop = $(this).scrollTop();
-  if (scrollTop > 100) {
+  if (scrollTop > 250) {
     $('nav').fadeIn("slow");
   } else {
     $('nav').fadeOut("slow");
   }
 });
+
+$( document ).ready(function(){
+  $(".button-collapse").sideNav();
+})

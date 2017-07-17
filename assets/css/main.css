@@ -38,7 +38,7 @@ section {
 
 .logo {
   height: 50px;
-  width: 80px;
+  width: 100px;
 }
 
 .bg-header {
@@ -79,7 +79,6 @@ section {
 .nav-color {
   background-color: #1ed6bb;
   display: none;
-  left: 0;
   position: fixed;
   top: 0;
   z-index: 20;

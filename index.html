@@ -14,13 +14,22 @@
   </head>
   <body>
     <nav class="nav-color">
-      <ul class="list-align">
-        <li><a href="#home"><img class="logo" src="assets/images/logo.png" alt="logo"></a></li>
-        <li><a href="#about">about</a></li>
-        <li><a href="#skill">skill</a></li>
-        <li><a href="#work">work</a></li>
-        <li><a href="#contact">contact</a></li>
-      </ul>
+      <div class="nav-wrapper container">
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="list-align hide-on-med-and-down">
+          <li><a href="#home"><img class="logo" src="assets/icons/logo.png" alt="logo"></a></li>
+          <li><a href="#about">Sobre mí</a></li>
+          <li><a href="#skill">Skill</a></li>
+          <li><a href="#work">Proyectos</a></li>
+          <li><a href="#contact">Contáctame</a></li>
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+          <li><a href="sass.html">Sobre mí</a></li>
+          <li><a href="badges.html">Skill</a></li>
+          <li><a href="collapsible.html">Proyectos</a></li>
+          <li><a href="mobile.html">Contáctame</a></li>
+        </ul>
+      </div>
     </nav>
     <header id="home" class="bg-header flex col s12 l12">
       <div class="center">
@@ -47,8 +56,16 @@
     </section>
     <section id="skill" class="section1">
       <div class="container">
-        <h2 class="title">skill</h2>
-        <p></p>
+        <h2 class="title">Habilidades y Conocimientos</h2>
+        <div class="icons-skill">
+          <img src="assets/icons/bootstrap.png" alt="icono bootstrap">
+          <img src="assets/icons/css_html.svg" alt="icono css y html">
+          <img src="assets/icons/git.png" alt="icono git">
+          <img src="assets/icons/github.png" alt="icono github">
+          <img src="assets/icons/jquery.png" alt="icono jQuery">
+          <img src="assets/icons/materialize.png" alt="icono materialize">
+          <img src="assets/icons/agile.png" alt="icono metodología agile">
+        </div>
       </div>
     </section>
     <section id="work" class="container">
