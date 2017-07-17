@@ -91,6 +91,18 @@ section {
   text-decoration: none;
 }
 
+.icon-bg {
+  width: 100%;
+  height: 250px;
+}
+
+.icon-bg:hover {
+  box-sizing:border-box;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: rgba(126, 164, 103, 0.55);
+}
+
 .icon-social {
   font-size: 8rem;
   color: #121258;
