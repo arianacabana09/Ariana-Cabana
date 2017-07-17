@@ -8,7 +8,3 @@ $(window).scroll(function () {
     $('nav').fadeOut("slow");
   }
 });
-
-$( document ).ready(function(){
-  $(".button-collapse").sideNav();
-})
