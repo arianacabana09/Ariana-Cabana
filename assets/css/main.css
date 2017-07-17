@@ -104,7 +104,7 @@ section {
 }
 
 .icon-social {
-  font-size: 8rem;
+  font-size: 4rem;
   color: #121258;
 }
 
@@ -113,6 +113,11 @@ section {
 }
 .color-y{
   color: #ffb800;
+}
+
+footer {
+  box-sizing: border-box;
+  padding: 10px;
 }
 
 @-webkit-keyframes typing { from { width: 0; } }
