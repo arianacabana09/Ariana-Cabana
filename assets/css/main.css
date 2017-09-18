@@ -91,8 +91,23 @@ section {
   text-decoration: none;
 }
 
+.img-perfil {
+  border-radius: 10px;
+}
+.icon-bg {
+  width: 100%;
+  height: 250px;
+}
+
+.icon-bg:hover {
+  box-sizing:border-box;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: rgba(126, 164, 103, 0.55);
+}
+
 .icon-social {
-  font-size: 8rem;
+  font-size: 4rem;
   color: #121258;
 }
 
@@ -101,6 +116,18 @@ section {
 }
 .color-y{
   color: #ffb800;
+}
+
+footer {
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.btn-focus {
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px;
 }
 
 @-webkit-keyframes typing { from { width: 0; } }
