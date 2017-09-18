@@ -9,7 +9,7 @@ $(window).scroll(function () {
 });
 
 var typing = new Typed(".type",{
-     strings: ["UI Developer","Coder","Front-end Web Developer"],
+     strings: [" ","UI Developer","Coder","Front-end Web Developer"," "],
      typeSpeed: 100,
      backSpeed:80,
      loop:true
